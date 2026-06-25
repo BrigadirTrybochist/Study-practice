@@ -94,6 +94,38 @@
           "amount": 12.0,
           "balance_before": 14999.13,
           "balance_after": 15011.13
+        },
+        {
+          "date": "25.06.2026",
+          "type": "Поповнення",
+          "description": "Просто",
+          "amount": 100.0,
+          "balance_before": 15011.13,
+          "balance_after": 15111.13
+        },
+        {
+          "date": "25.06.2026",
+          "type": "Зняття",
+          "description": "Не просто",
+          "amount": 100.0,
+          "balance_before": 15111.13,
+          "balance_after": 15011.13
+        },
+        {
+          "date": "25.06.2026",
+          "type": "Відсотки",
+          "description": "Нараховані 12.00% за 10 днів",
+          "amount": 49.35,
+          "balance_before": 15011.13,
+          "balance_after": 15060.48
+        },
+        {
+          "date": "25.06.2026",
+          "type": "Мікрозайм",
+          "description": "Мікрозайм 500 ₴ під 250.00%",
+          "amount": 500.0,
+          "balance_before": 15060.48,
+          "balance_after": 15560.48
         }
       ]
     },
@@ -155,7 +187,24 @@
           "balance_after": 670.0
         }
       ]
+    },
+    {
+      "owner": "ДаДа Не Не",
+      "account_number": "UA42-0005-0000-0000-0000",
+      "opened": "25.06.2026",
+      "status": "Активний",
+      "interest_rate": 112.0,
+      "transactions": [
+        {
+          "date": "25.06.2026",
+          "type": "Поповнення",
+          "description": "Початковий внесок",
+          "amount": 10000.0,
+          "balance_before": 0.0,
+          "balance_after": 10000.0
+        }
+      ]
     }
   ],
-  "microloan_rate": 250.0
+  "microloan_rate": 249.0
 }
